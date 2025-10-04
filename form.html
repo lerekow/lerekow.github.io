@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+
+<body>
+    <div id=""wrapper></div>
+    <nav>
+        <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/challenge.html">Challenge</a></li>
+        <li><a href="/form.html">Recipe</a></li>
+        <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class: intro>
+        <h1> Reserve your Room</h1>
+        <h2>Our Reservation Policies</h2>
+    </header>
+
+    <section class:policies> 
+        <ul>
+            <li>Check-in time after 3:00pm</li>
+            <li>Check-out time by 11:00am or charges are incurred</li>
+            <li>Breakfast and afternoon tea/snacks included in cost</li>
+            <li>Proof of COVID-19 Vaccination required. Upload image(s) below</li>
+            <li>50% deposit required at booking</li>
+            <li>Cancellations less than 72 hours ahead of check-in forfeit 50% of deposit</li>
+        </ul>
+    </section>
+
+    <section class:reserve>
+        <form method="post" name="reservation" data-netlify="true">
+
+            <div> 
+                <label for="firstName">First Name:</label>
+                <input type="text" name="firstName" id="firstName" placeholder="first name" required>
+            </div>
+
+            <div>
+                <label for="lastName">Last Name:</label>
+                <input type="text" name="lastName" id="lastName" placeholder="last name" required>
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="email" required>
+            </div>
+
+            <div>
+                <label for="phone">Phone:</label>
+                <input type="tel" name="phone" id="phone" placeholder="phone" required>
+            </div>
+
+            <div>
+                <label for="date">Check-in Date :</label>
+                <input type="date" name="date" id="date" placeholder="date" required>
+            </div>
+
+             <div>
+                <label for="date">Check-out Date :</label>
+                <input type="date" name="date" id="date" placeholder="date" required>
+            </div>
+
+            <div>
+                <label for="guestNumber">Number of Guests :</label>
+                <input type="number" name="guestNumber" id="guestNumber" placeholder="guest number" required minlength="1" maxlength="4">
+            </div>
+
+            <div>
+                <label for="roomType">Room Type: </label>
+                <select name="roomType" id="roomType" placeholder="room type" multiple required>
+                    <option label="1 Bed"> 1 Bed</option>
+                    <option label="2 Bed"> 2 Beds</option>
+            </div>
+
+            <div>
+                <label for= "oceanView">Ocean View?</label>
+            
+                <label for="yes"> Yes</label>
+                <input type="radio" name="oceanView" id="yes" value="yes">
+            </div>
+
+            <div>
+                <label for="no"> No</label>
+                <input type="radio" name="oceanView" id="no" value="no">
+            </div>
+
+            <div>
+                <lable for="notes">Notes: </lable>
+                <input type="text" name="notes" id="notes" placeholder="notes">
+            </div>
+
+            <div>
+                <label for="vaccineProof"> Vaccine Proof</label>
+                <input type="file" name="vaccineProof" id="vaccineProof">
+            </div>
+
+            <div>
+                <label for="agreetoterms">Agree to Terms</label>
+                <input type="checkbox">
+            </div>
+
+            <div>
+                <label for="password">Password</label>
+                <input type="password">
+            </div>
+
+            <div>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+
+        </form>
+    </section>
+
+</body>
+
+<footer>
+    <p>
+        &copy2025 Marrinott on Fraudway <br>
+        Springfield, MA
+    </p>
+</footer>
+
+</html>
