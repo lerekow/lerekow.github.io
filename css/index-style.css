@@ -1,0 +1,92 @@
+html {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    color: #194912;
+    text-align:center;
+    background-color: #faf6ea
+}
+
+h1,
+h2,
+h3 { 
+
+}
+
+h1 {
+    font-family:'Trattatello', Times New Roman, fantasy;
+    font-weight:bold;
+    text-decoration:underline wavy #657f2c 2px;
+    text-underline-offset: 10px;
+    text-transform: capitalize;
+
+}
+
+h1::before,
+h1::after {
+    content: "\1F342";
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size:small;
+    font-style: italic;
+}
+
+
+p a:visited {
+    color: #657f2c;
+}
+
+p a:hover {
+    color:#e97909;
+}
+
+nav a:visited {
+    color: #657f2c;
+    
+}
+
+
+nav a:hover,
+nav a:active {
+    text-decoration: underline;
+    color:#e97909;
+   
+}   
+
+nav a:hover::before {
+    content: "\1F342";
+}
+nav a:hover::after {
+    content: "\1F342";
+}
+
+li {
+    color:#194912;
+}
+
+li a:visited {
+    color: #657f2c;
+}
+
+
+li a:hover,
+li a:active {
+    text-decoration: underline;
+    color:#e97909;
+
+}
+
+footer {
+    color: #194912;
+    }
+
+a {
+    color: #6FA4AF
+}
+
+a:hover::before,
+a:hover::after {
+    content: "\1f342";
+}
