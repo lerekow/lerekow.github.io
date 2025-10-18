@@ -33,6 +33,11 @@ h3 {
     font-style: italic;
 }
 
+p {
+    letter-spacing: -0.05rem;
+    margin-left: 400px;
+    margin-right: 400px;
+}
 
 p a:visited {
     color: #657f2c;
