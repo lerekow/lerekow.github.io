@@ -1,0 +1,141 @@
+html {
+box-sizing: border-box;
+}
+* ,
+* ::before ,
+* ::after {
+box-sizing: inherit;
+}
+
+body {
+    
+    background-image: url(/img/evgeni-evgeniev-KAukBWGvPWQ-unsplash.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color:#faf6ea;
+    
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+
+#wrapper {
+    width:80%;
+    background-color: #35493483;
+    padding: 2rem;
+    margin-left:200px;
+    border: none;
+    border-radius: 32px;
+
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 3.5rem;
+    color:#faf6ea;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    padding: 12px 16px;
+    background-color: #e97909;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+
+nav :visited {
+    color:#faf6ea
+}
+
+ul {
+    margin-bottom: 2rem;
+    text-align: left;
+    color:#faf6ea;
+    margin-left: 500px;
+    margin-right: 400px;
+}
+
+p {
+    color:#faf6ea;
+}
+
+form {
+    padding-left: 3rem;
+    text-align: left;
+    color:#faf6ea;
+    margin-left: 350px;
+    margin-right: 400px;
+}
+
+label,
+span {
+    display: inline-block;
+    width:250px;
+    margin-right: 20px;
+    text-align: right;
+}
+
+.radio label {
+    width: 12px;
+}
+
+span {
+    margin-top 20px;
+    margin-bottom: 20px;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=date],
+input[type=number],
+input[type=file],
+input[type=checkbox],
+input[type=password] 
+
+{ 
+padding: 10px;
+margin: 8px 0;
+border: none;
+border-radius: 8px;
+}
+
+textarea {
+    border-radius: 8px
+}
+
+input[type=checkbox],
+input[type=radio] {
+width: 18px;
+height: 18px;
+cursor: pointer;
+}
+
+button {
+background-color: white;
+color: rgb(41, 116, 202); 
+padding: .5rem; 
+margin-bottom: 1rem;
+border-radius: 8px;
+text-transform: uppercase;
+font-size: .75rem;
+letter-spacing: 1px;
+font-weight: 600;
+cursor: pointer;
+}
+
+button[type=submit] {
+margin-top: 2rem;
+}
+

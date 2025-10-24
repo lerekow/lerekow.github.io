@@ -1,4 +1,13 @@
 html {
+box-sizing: border-box;
+}
+* ,
+* ::before ,
+* ::after {
+box-sizing: inherit;
+}
+
+html {
     font-family:'Courier New', Courier, monospace;
     font-size: 1.25rem;
     line-height: 1.2;

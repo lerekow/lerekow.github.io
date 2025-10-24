@@ -1,4 +1,13 @@
 html {
+box-sizing: border-box;
+}
+* ,
+* ::before ,
+* ::after {
+box-sizing: inherit;
+}
+
+html {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 1.5
 }

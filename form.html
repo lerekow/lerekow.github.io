@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/css/form-style.css">
 </head>
 
 
-
 <body>
-    <div id=""wrapper></div>
+    <div id="wrapper">
     <nav>
         <ul>
         <li><a href="/index.html">Home</a></li>
@@ -75,19 +75,16 @@
 
             <div>
                 <label for="roomType">Room Type: </label>
-                <select name="roomType" id="roomType" placeholder="room type" multiple required>
-                    <option label="1 Bed"> 1 Bed</option>
-                    <option label="2 Bed"> 2 Beds</option>
+                <select name="roomType" id="roomType" placeholder="room type" required>
+                    <option value="1 Bed"> 1 Bed</option>
+                    <option value="2 Bed"> 2 Beds</option>
+                </select>
             </div>
-
+    
             <div>
-                <label for= "oceanView">Ocean View?</label>
-            
+                <p>Ocean View (add'l cost)</p>
                 <label for="yes"> Yes</label>
                 <input type="radio" name="oceanView" id="yes" value="yes">
-            </div>
-
-            <div>
                 <label for="no"> No</label>
                 <input type="radio" name="oceanView" id="no" value="no">
             </div>
@@ -118,10 +115,11 @@
             </div>
 
         </form>
+      
     </section>
 
 </body>
-
+</div>
 <footer>
     <p>
         &copy2025 Marrinott on Fraudway <br>
