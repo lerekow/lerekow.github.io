@@ -1,0 +1,196 @@
+/*
+.cookie-regular {
+  font-family: "Cookie", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.mallanna-regular {
+  font-family: "Mallanna", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+
+html {
+    box-sizing: border-box;
+    font-family: "Dongle", sans-serif;
+    font-size: 2.15rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 125%;
+    color:rgb(122, 60, 19)
+    }
+
+* ,
+* ::before ,
+* ::after {
+box-sizing: inherit;
+}
+
+nav {
+        background-color: chocolate;
+        text-align: center;
+}
+
+nav li {
+    display:inline;
+}
+
+nav a {
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav a:link,
+nav a:visited {
+    text-decoration: none;
+
+}
+
+nav a:hover,
+nav a:active {
+    background-color:antiquewhite;
+    color: chocolate;
+    text-decoration: none;
+
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Momo Signature", cursive;
+    font-size: 1.25rem;
+  font-weight: 400;
+  font-style: normal;
+  color:chocolate
+  
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 6% 0;
+    text-align: center;
+    text-shadow: 3px 5px 3px #fad7aa
+}
+
+img {
+    float:left;
+    max-width:30%;
+    margin-left: 10%;
+    margin-right: 5%;
+    border-radius: 50%;
+    box-shadow: 3px 5px 3px #b39080;
+    shape-outside: circle (50%);
+
+}
+
+header h2 {
+    margin-top: 8%;
+}
+
+.rate {
+    clear: both;
+    margin-top:6%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.emoji::after {
+    content: "\1f370";
+
+}
+
+.details,
+.ingredients,
+.instructions,
+.nutrition{
+    width: 40%;
+    float: left;
+
+}
+
+.details,
+.ingredients {
+    margin-right: 16%;
+    margin-left: 2%;
+    margin-bottom: 15%;
+}
+
+.instructions {
+    margin-top: 20%;
+}
+
+
+blockquote {
+    color:white;
+    clear: both;
+    width: 300px;
+    height: 280px;
+    padding: 70px 16px 35px 35px;
+    border-radius: 50%;
+    background-color: chocolate;
+    outline: dotted 6px chocolate;
+    outline-offset: 10px;
+    font-family: "Momo Signature", cursive;
+    font-size: 0.50rem;
+    margin: 40px auto;
+
+
+}
+
+blockquote small {
+    text-align: right;
+
+}
+
+footer {
+    background-color:chocolate;
+    color:antiquewhite
+    padding: 2% 0;
+    margin-top: 10px;
+
+}
+
+footer a {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+.col1,
+.col2,
+.col3 {
+    display: block;
+    float: left;
+    width: 33%;
+
+}
+
+footer p {
+    clear:both;
+}
+
+footer a:active,
+footer a:hover 
+{
+    background-color:antiquewhite;
+    color: chocolate;
+    text-decoration: none;
+
+}
