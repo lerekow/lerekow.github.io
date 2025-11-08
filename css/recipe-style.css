@@ -77,6 +77,7 @@ h3 {
 
 h1 {
     font-size: 2rem;
+    line-height: 3rem;
     margin: 6% 0;
     text-align: center;
     text-shadow: 3px 5px 3px #fad7aa
@@ -194,3 +195,90 @@ footer a:hover
     text-decoration: none;
 
 }
+
+/* media queries */
+
+@media (max-width: 360px) {
+
+    html {
+        line-height: 135%;
+    }
+
+    nav a {
+        padding: 8px;
+        letter-spacing: normal;
+        font-size: .9rem;
+    }
+
+    nav ul {
+        padding-left: 10px;
+    }
+
+    main {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 1.25rem;
+        line-height: 2rem;
+        width: 90%;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    img {
+        float: none;
+        max-width: 60%;
+        margin-left: 20%
+    }
+
+    .rate {
+        font-size: 1rem;
+    }
+
+    .details,
+    .ingredients,
+    .instructions,
+    .nutrition {
+        width: 90%;
+        float: none;
+    }
+
+    .col1,
+    .col2,
+    .col3 {
+        display: block;
+        float: none;
+        width: 90%;
+        text-align: cetner;
+    }
+
+}
+
+@media (max-width: 810px) {
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+        line-height: 0.75rem;
+    }
+
+    p {
+        font-size: 0.90rem;
+        line-height: 0.90rem;
+    }
+
+    img {
+        float: left;
+        max-width: 35%;
+        margin-bottom: .50rem;
+
+    }
+
+}
+
