@@ -7,10 +7,22 @@ box-sizing: border-box;
 box-sizing: inherit;
 }
 
+
 html {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    line-height: 1.5
+    line-height: 1.5;
+    margin-left: 10rem;
+    margin-right: 10rem;
 }
+
+html {
+    --ratio: 1.2;
+    --size-one: calc( 1rem * var(--ratio));
+    --size-two: 	calc( var(--size-one) * var(--ratio) );
+	--size-three: 	calc( var(--size-two) * var(--ratio) );
+}
+
+
 h1, h2, h3 {
     color: #bb1b47;
     font-family: Georgia, 'Times New Roman', Times, serif
@@ -18,13 +30,46 @@ h1, h2, h3 {
 
 h1 {
     text-transform: capitalize;
+    text-align:center;
     font-weight:normal;
     letter-spacing:.1rem; 
+    font-size var(--size-three);
 }
 
-h1 {size:3.5rem}
-h2 {size:2rem}
-h3 {size:1.5rem}
+h2 {
+    font-size: var(--size-two);
+}
+
+@media (min-width:500px) {
+    html {
+        --ratio:1.5;
+    }
+}
+
+.box {
+    width: 100rem;
+    height: 5rem;
+    background-image: linear-gradient(to right,black,rgb(197, 197, 197), white,rgb(197, 197, 197), black);
+}
+
+img {
+    size: 100rem;
+}
+
+.box2 {
+    width: 100rem;
+    height: 5rem;
+    background-image: linear-gradient(to right,rgb(235, 29, 115),rgb(245, 206, 33), rgb(0, 132, 255));
+}
+
+p {
+    font-size: var(--size-one);
+    margin-left: 30rem;
+    margin-right: 30rem;
+    text-align:center;
+}
+
+
 
 .site-intro {font-size: 1.25rem;}
 
@@ -46,4 +91,5 @@ nav a:hover {
     color:#bb1b47
     
 }
+
 
